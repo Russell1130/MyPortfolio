@@ -10,7 +10,7 @@ import p9 from "./assets/project9.png";
 import p10 from "./assets/project10.png";
 
 export const skills_list = [
-  { path : "/src/assets/SK1.svg" },
+  { path : "./src/assets/SK1.svg" },
   { path : "/src/assets/SK2.svg" },
   { path : "/src/assets/SK3.svg" },
   { path : "/src/assets/SK4.svg" },
