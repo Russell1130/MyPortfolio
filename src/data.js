@@ -8,6 +8,13 @@ import p7 from "./assets/project7.png";
 import p8 from "./assets/project8.png";
 import p9 from "./assets/project9.png";
 import p10 from "./assets/project10.png";
+import p11 from "./assets/project11.png";
+import p12 from "./assets/project12.png";
+import p13 from "./assets/project13.png";
+import p14 from "./assets/project14.png";
+import p15 from "./assets/project15.png";
+import p16 from "./assets/project16.png";
+import p17 from "./assets/project17.png";
 
 export const skills_list = [
   { path : "./assets/SK1.svg" },
@@ -17,42 +24,29 @@ export const skills_list = [
   { path : "./assets/SK5.svg" },
   { path : "./assets/SK6.svg" },
   { path : "./assets/SK7.svg" },
-  { path : "./assets/SK8.svg" },
-  { path : "./assets/SK9.svg" },
   { path : "./assets/SK10.svg" },
   { path : "./assets/SK11.svg" },
   { path : "./assets/SK12.svg" },
   { path : "./assets/SK13.svg" },
-  { path : "./assets/SK14.svg" },
-  { path : "./assets/SK15.svg" },
-  { path : "./assets/SK16.svg" },
   { path : "./assets/SK17.svg" },
   { path : "./assets/SK18.svg" },
-  { path : "./assets/SK19.svg" },
-  { path : "./assets/SK20.svg" },
   { path : "./assets/SK21.svg" },
-  { path : "./assets/SK22.svg" },
   { path : "./assets/SK23.svg" },
   { path : "./assets/SK24.svg" },
   { path : "./assets/SK25.svg" },
   { path : "./assets/SK26.svg" },
   { path : "./assets/SK27.svg" },
   { path : "./assets/SK28.svg" },
-  { path : "./assets/SK29.svg" },
   { path : "./assets/SK30.svg" },
   { path : "./assets/SK31.svg" },
-  { path : "./assets/SK32.svg" },
   { path : "./assets/SK33.svg" },
   { path : "./assets/SK34.svg" },
   { path : "./assets/SK35.svg" },
   { path : "./assets/SK36.svg" },
   { path : "./assets/SK37.svg" },
-  { path : "./assets/SK38.svg" },
-  { path : "./assets/SK39.svg" },
-  { path : "./assets/SK40.svg" },
-  { path : "./assets/SK41.svg" },
-  { path : "./assets/SK42.svg" },
   { path : "./assets/SK43.svg" },
+  { path: "./assets/Solidity.svg"},
+  { path: "./assets/Rust.svg"},
 ]
 
 export const filters = [
@@ -74,62 +68,104 @@ export const projects = [
   {
     name: "Movie searching App using react,redux,tailwind and TMDB API",
     image: p1,
-    tags: ["mine", "fullstack", "react", "MDB"],
+    tags: ["mine", "fullstack"],
     live_url: "https://movie-flix-ashy.vercel.app/",
   },
   {
-    name      : "React Quiz App",
+    name      : "InfinityBit",
     image     : p2,
-    tags      : ["mine", "fullstack", "react","javascript","recent"],
-    live_url  : "https://react-quiz-liart.vercel.app/",
+    tags      : ["mine", "fullstack"],
+    live_url  : "https://infinitybit.io/",
   },
   {
     name      : "Geneis Vision",
     image     : p3,
-    tags      : ["mine", "fullstack", "react","materialui"],
+    tags      : ["mine", "fullstack"],
     live_url  : "https://genesis.vision/",
   },
   {
     name      : "UnityMeta",
     image     : p4,
-    tags      : ["mine", "fullstack", "vue","tailwind"],
+    tags      : ["mine", "fullstack"],
     live_url  : "https://www.unitymeta.finance/",
   },
   { 
     name      : "Ocado Supermaket",
     image     : p5,
-    tags      : ["mine", "fullstack", "Shopify"],
+    tags      : ["mine", "fullstack"],
     live_url  : "https://www.ocado.com",
+  },
+  { 
+    name      : "Bioceuticals",
+    image     : p11,
+    tags      : ["mine", "fullstack"],
+    live_url  : "https://www.bioceuticals.co.uk",
+  },
+  { 
+    name      : "Birdkeeper",
+    image     : p12,
+    tags      : ["mine", "fullstack"],
+    live_url  : "https://birdkeeper.com.au",
+  },
+  { 
+    name      : "Medano",
+    image     : p13,
+    tags      : ["mine", "fullstack"],
+    live_url  : "https://medano.io/",
   },
   {
     name      : "Nether NFT",
     image     : p6,
-    tags      : ["mine", "Crypto", "NFT"],
+    tags      : ["mine", "Crypto"],
     live_url  : "https://nethernft.io",
   }, 
   {
     name      : "MM Finance",
     image     : p7,
-    tags      : ["mine", "Crypto", "Dex", "Defi"],
+    tags      : ["mine", "Crypto"],
     live_url  : "https://polymm.finance",
   },
   { 
     name      : "Defibids",
     image     : p8,
-    tags      : ["mine", "Crypto", "Defi"],
+    tags      : ["mine", "Crypto"],
     live_url  : "https://defibids.com",
   },
   { 
     name      : "Shirtum",
     image     : p9,
-    tags      : ["mine", "Crypto", "NFT"],
+    tags      : ["mine", "Crypto"],
     live_url  : "https://shirtum.com/",
   },
   {  
     name      : "Warden2.0",
     image     : p10,
-    tags      : ["mine", "Crypto", "Dex"],
+    tags      : ["mine", "Crypto"],
     live_url  : "https://wardenswap.finance/",
+  },
+  {  
+    name      : "AnimeSwap",
+    image     : p14,
+    tags      : ["mine", "Crypto"],
+    live_url  : "https://app.animeswap.org",
+  },
+  {  
+    name      : "XODEX",
+    image     : p15,
+    tags      : ["mine", "Crypto"],
+    live_url  : "https://www.xo-dex.com",
+  },
+  {  
+    name      : "Helio Protocol",
+    image     : p16,
+    tags      : ["mine", "Crypto"],
+    live_url  : "https://helio.money",
+  },
+  {  
+    name      : "Wanaka Farm",
+    image     : p17,
+    tags      : ["mine", "Crypto"],
+    live_url  : "https://wanakafarm.com",
   },
 ];
 
