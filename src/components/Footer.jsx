@@ -19,7 +19,7 @@ const Footer = () => {
                         </div>
 
                         <div className="w-[35px] h-[35px] rounded-full flex justify-center items-center">
-                            <a href="https://github.com/Russell1130">
+                            <a href="https://github.com/devlord0625">
                                 <FaGithub className="text-3xl"/>
                             </a>
                         </div>
